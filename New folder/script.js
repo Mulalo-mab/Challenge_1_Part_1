@@ -1,6 +1,6 @@
-firstName = 'John';
-age = 35;
-hobbyName = 'Coding'; // Changed variable name to avoid conflict
+let firstName = 'John';
+let age = 35;
+let hobbyName = 'Coding'; // Changed variable name to avoid conflict
 
 const logTwice = () => {  
   return `Hello, ${name} (${age}). I love ${hobbyName}!`
