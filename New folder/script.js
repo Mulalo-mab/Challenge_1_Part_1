@@ -2,15 +2,12 @@ firstName = 'John';
 age = 35;
 hobbyName = 'Coding'; // Changed variable name to avoid conflict
 
-const logTwice = (parameter) => {  // Added parameter to the logTwice function
-  console.log(parameter); // Fixed the console.log statement
-  console.log(parameter); // Fixed the console.log statement
+const logTwice = () => {  
+  return `Hello, ${name} (${age}). I love ${hobbyName}!`
 }
 
-function hobby() {  // Changed the function name to avoid conflict
-  logTwice(`Hello, ${name} (${age}). I love ${hobbyName}!`);
-  // Replaced undefined variable name with firstName
-}
+const twice = `Hello, ${name} (${age}). I love ${hobbyName}!`
+console.log(twice);
+console.log(twice);
+logTwice();
 
-
-hobby(); // Invoked the function directly
